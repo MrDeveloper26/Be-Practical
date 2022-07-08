@@ -400,6 +400,7 @@ header .fa-bars{
   box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
   background:#fff;
   margin:4rem 2rem;
+  border-radius: 5px;
 }
 
 .review .box-container .box img{
@@ -408,15 +409,16 @@ header .fa-bars{
   object-fit: cover;
   border-radius: 50%;
   margin-top: -4rem;
-  border:.6rem solid var(--pink);
-  border-left:.2rem solid var(--violet);
-  border-bottom:.6rem solid var(--violet);
+  box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
 .review .box-container .box h3{
   font-size: 2rem;
   color:var(--pink);
-  padding:0 .5rem;
+  padding:0 1rem;
+  margin: .8rem 0;
+  letter-spacing: 1.2px;
+  
 }
 
 .review .box-container .box p{
@@ -429,6 +431,11 @@ header .fa-bars{
   font-size: 1.6rem;
   color:var(--violet);
   padding:1.3rem .1rem;
+}
+.review .box-container .box a {
+font-size: 3rem;
+color: #ce47eb;
+
 }
 
 .contact{
